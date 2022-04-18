@@ -1,0 +1,14 @@
+{
+  "name": "bonga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-timeout": "^1.1.1",
+    "cheerio": "^1.0.0-rc.10",
+    "puppeteer": "^13.5.2",
+    "ws": "^8.5.0"
+  }
+}
