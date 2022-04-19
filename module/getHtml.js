@@ -95,7 +95,7 @@ module.exports = async function getHtml(
     await page.waitForTimeout(1000);
 
     await page.type("input[class=bmsb_input]", username, {
-      delay: 20,
+      delay: 20
     }); // Вводит username пользователя
 
     //Выбираем пользователя из выпадающего списка
@@ -104,7 +104,7 @@ module.exports = async function getHtml(
     await example[0].click();
 
     await page.type("textarea[name=message]", sendText, {
-      delay: 20,
+      delay: 20
     }); // Вводит сообщение для пользователя
     await page.waitForTimeout(1000);
 
